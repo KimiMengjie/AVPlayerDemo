@@ -55,7 +55,7 @@
 //    NSString *urlStr= [[NSBundle mainBundle] URLForResource:@"150511_JiveBike" withExtension:@"mov"];
 //    urlStr=[urlStr stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
 //    NSURL *url=[NSURL URLWithString:urlStr];
-    return [[NSBundle mainBundle] URLForResource:@"150511_JiveBike" withExtension:@"mov"];;
+    return [[NSBundle mainBundle] URLForResource:@"150511_JiveBike" withExtension:@"mov"];
 }
 
 /**

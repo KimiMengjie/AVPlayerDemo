@@ -7,43 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3F7F992B1DA907A70049DBF2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7F992A1DA907A70049DBF2 /* main.m */; };
-		3F7F992E1DA907A70049DBF2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7F992D1DA907A70049DBF2 /* AppDelegate.m */; };
-		3F7F99311DA907A70049DBF2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7F99301DA907A70049DBF2 /* ViewController.m */; };
-		3F7F99341DA907A70049DBF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F7F99321DA907A70049DBF2 /* Main.storyboard */; };
-		3F7F99361DA907A70049DBF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F7F99351DA907A70049DBF2 /* Assets.xcassets */; };
-		3F7F99391DA907A70049DBF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F7F99371DA907A70049DBF2 /* LaunchScreen.storyboard */; };
-		3F7F99411DA907BC0049DBF2 /* 150511_JiveBike.mov in Resources */ = {isa = PBXBuildFile; fileRef = 3F7F99401DA907BC0049DBF2 /* 150511_JiveBike.mov */; };
-		3F7F99491DA90B7B0049DBF2 /* MJVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7F99481DA90B7B0049DBF2 /* MJVideo.m */; };
-		3F7F994C1DA90C090049DBF2 /* MJVideoPlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7F994B1DA90C090049DBF2 /* MJVideoPlayViewController.m */; };
-		3F7F994F1DA90EBF0049DBF2 /* MJVideoPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7F994E1DA90EBF0049DBF2 /* MJVideoPlayerController.m */; };
-		3F7F99521DA912A50049DBF2 /* MJVideoPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7F99511DA912A50049DBF2 /* MJVideoPlayerView.m */; };
+		3F7F99861DA91D0D0049DBF2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7F99851DA91D0D0049DBF2 /* main.m */; };
+		3F7F99891DA91D0D0049DBF2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7F99881DA91D0D0049DBF2 /* AppDelegate.m */; };
+		3F7F998C1DA91D0D0049DBF2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7F998B1DA91D0D0049DBF2 /* ViewController.m */; };
+		3F7F998F1DA91D0D0049DBF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F7F998D1DA91D0D0049DBF2 /* Main.storyboard */; };
+		3F7F99911DA91D0D0049DBF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F7F99901DA91D0D0049DBF2 /* Assets.xcassets */; };
+		3F7F99941DA91D0D0049DBF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F7F99921DA91D0D0049DBF2 /* LaunchScreen.storyboard */; };
+		3F7F999C1DA91D780049DBF2 /* 150511_JiveBike.mov in Resources */ = {isa = PBXBuildFile; fileRef = 3F7F999B1DA91D780049DBF2 /* 150511_JiveBike.mov */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3F7F99261DA907A70049DBF2 /* 视频播放3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "视频播放3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3F7F992A1DA907A70049DBF2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3F7F992C1DA907A70049DBF2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		3F7F992D1DA907A70049DBF2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3F7F992F1DA907A70049DBF2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3F7F99301DA907A70049DBF2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		3F7F99331DA907A70049DBF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3F7F99351DA907A70049DBF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3F7F99381DA907A70049DBF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		3F7F993A1DA907A70049DBF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3F7F99401DA907BC0049DBF2 /* 150511_JiveBike.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = 150511_JiveBike.mov; sourceTree = "<group>"; };
-		3F7F99471DA90B7B0049DBF2 /* MJVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJVideo.h; sourceTree = "<group>"; };
-		3F7F99481DA90B7B0049DBF2 /* MJVideo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJVideo.m; sourceTree = "<group>"; };
-		3F7F994A1DA90C090049DBF2 /* MJVideoPlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJVideoPlayViewController.h; sourceTree = "<group>"; };
-		3F7F994B1DA90C090049DBF2 /* MJVideoPlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJVideoPlayViewController.m; sourceTree = "<group>"; };
-		3F7F994D1DA90EBF0049DBF2 /* MJVideoPlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJVideoPlayerController.h; sourceTree = "<group>"; };
-		3F7F994E1DA90EBF0049DBF2 /* MJVideoPlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJVideoPlayerController.m; sourceTree = "<group>"; };
-		3F7F99501DA912A50049DBF2 /* MJVideoPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJVideoPlayerView.h; sourceTree = "<group>"; };
-		3F7F99511DA912A50049DBF2 /* MJVideoPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJVideoPlayerView.m; sourceTree = "<group>"; };
+		3F7F99811DA91D0D0049DBF2 /* 视频播放3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "视频播放3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F7F99851DA91D0D0049DBF2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F7F99871DA91D0D0049DBF2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3F7F99881DA91D0D0049DBF2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3F7F998A1DA91D0D0049DBF2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3F7F998B1DA91D0D0049DBF2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3F7F998E1DA91D0D0049DBF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F7F99901DA91D0D0049DBF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F7F99931DA91D0D0049DBF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F7F99951DA91D0D0049DBF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F7F999B1DA91D780049DBF2 /* 150511_JiveBike.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = 150511_JiveBike.mov; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3F7F99231DA907A70049DBF2 /* Frameworks */ = {
+		3F7F997E1DA91D0D0049DBF2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -53,105 +41,57 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3F7F991D1DA907A70049DBF2 = {
+		3F7F99781DA91D0D0049DBF2 = {
 			isa = PBXGroup;
 			children = (
-				3F7F99281DA907A70049DBF2 /* 视频播放3 */,
-				3F7F99271DA907A70049DBF2 /* Products */,
+				3F7F99831DA91D0D0049DBF2 /* 视频播放3 */,
+				3F7F99821DA91D0D0049DBF2 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		3F7F99271DA907A70049DBF2 /* Products */ = {
+		3F7F99821DA91D0D0049DBF2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3F7F99261DA907A70049DBF2 /* 视频播放3.app */,
+				3F7F99811DA91D0D0049DBF2 /* 视频播放3.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3F7F99281DA907A70049DBF2 /* 视频播放3 */ = {
+		3F7F99831DA91D0D0049DBF2 /* 视频播放3 */ = {
 			isa = PBXGroup;
 			children = (
-				3F7F99421DA908640049DBF2 /* Classes */,
-				3F7F992C1DA907A70049DBF2 /* AppDelegate.h */,
-				3F7F992D1DA907A70049DBF2 /* AppDelegate.m */,
-				3F7F992F1DA907A70049DBF2 /* ViewController.h */,
-				3F7F99301DA907A70049DBF2 /* ViewController.m */,
-				3F7F99321DA907A70049DBF2 /* Main.storyboard */,
-				3F7F99351DA907A70049DBF2 /* Assets.xcassets */,
-				3F7F99371DA907A70049DBF2 /* LaunchScreen.storyboard */,
-				3F7F993A1DA907A70049DBF2 /* Info.plist */,
-				3F7F99291DA907A70049DBF2 /* Supporting Files */,
-				3F7F994A1DA90C090049DBF2 /* MJVideoPlayViewController.h */,
-				3F7F994B1DA90C090049DBF2 /* MJVideoPlayViewController.m */,
+				3F7F99871DA91D0D0049DBF2 /* AppDelegate.h */,
+				3F7F99881DA91D0D0049DBF2 /* AppDelegate.m */,
+				3F7F998A1DA91D0D0049DBF2 /* ViewController.h */,
+				3F7F998B1DA91D0D0049DBF2 /* ViewController.m */,
+				3F7F998D1DA91D0D0049DBF2 /* Main.storyboard */,
+				3F7F99901DA91D0D0049DBF2 /* Assets.xcassets */,
+				3F7F99921DA91D0D0049DBF2 /* LaunchScreen.storyboard */,
+				3F7F99951DA91D0D0049DBF2 /* Info.plist */,
+				3F7F99841DA91D0D0049DBF2 /* Supporting Files */,
 			);
 			path = "视频播放3";
 			sourceTree = "<group>";
 		};
-		3F7F99291DA907A70049DBF2 /* Supporting Files */ = {
+		3F7F99841DA91D0D0049DBF2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				3F7F99401DA907BC0049DBF2 /* 150511_JiveBike.mov */,
-				3F7F992A1DA907A70049DBF2 /* main.m */,
+				3F7F999B1DA91D780049DBF2 /* 150511_JiveBike.mov */,
+				3F7F99851DA91D0D0049DBF2 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		3F7F99421DA908640049DBF2 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				3F7F99431DA908640049DBF2 /* VideoPlayer */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		3F7F99431DA908640049DBF2 /* VideoPlayer */ = {
-			isa = PBXGroup;
-			children = (
-				3F7F99441DA908640049DBF2 /* Controller */,
-				3F7F99451DA908640049DBF2 /* Model */,
-				3F7F99461DA908640049DBF2 /* View */,
-			);
-			path = VideoPlayer;
-			sourceTree = "<group>";
-		};
-		3F7F99441DA908640049DBF2 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				3F7F994D1DA90EBF0049DBF2 /* MJVideoPlayerController.h */,
-				3F7F994E1DA90EBF0049DBF2 /* MJVideoPlayerController.m */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		3F7F99451DA908640049DBF2 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				3F7F99471DA90B7B0049DBF2 /* MJVideo.h */,
-				3F7F99481DA90B7B0049DBF2 /* MJVideo.m */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		3F7F99461DA908640049DBF2 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				3F7F99501DA912A50049DBF2 /* MJVideoPlayerView.h */,
-				3F7F99511DA912A50049DBF2 /* MJVideoPlayerView.m */,
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3F7F99251DA907A70049DBF2 /* 视频播放3 */ = {
+		3F7F99801DA91D0D0049DBF2 /* 视频播放3 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3F7F993D1DA907A70049DBF2 /* Build configuration list for PBXNativeTarget "视频播放3" */;
+			buildConfigurationList = 3F7F99981DA91D0D0049DBF2 /* Build configuration list for PBXNativeTarget "视频播放3" */;
 			buildPhases = (
-				3F7F99221DA907A70049DBF2 /* Sources */,
-				3F7F99231DA907A70049DBF2 /* Frameworks */,
-				3F7F99241DA907A70049DBF2 /* Resources */,
+				3F7F997D1DA91D0D0049DBF2 /* Sources */,
+				3F7F997E1DA91D0D0049DBF2 /* Frameworks */,
+				3F7F997F1DA91D0D0049DBF2 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -159,26 +99,25 @@
 			);
 			name = "视频播放3";
 			productName = "视频播放3";
-			productReference = 3F7F99261DA907A70049DBF2 /* 视频播放3.app */;
+			productReference = 3F7F99811DA91D0D0049DBF2 /* 视频播放3.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		3F7F991E1DA907A70049DBF2 /* Project object */ = {
+		3F7F99791DA91D0D0049DBF2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = MJ;
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = kimi;
 				TargetAttributes = {
-					3F7F99251DA907A70049DBF2 = {
+					3F7F99801DA91D0D0049DBF2 = {
 						CreatedOnToolsVersion = 8.0;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 3F7F99211DA907A70049DBF2 /* Build configuration list for PBXProject "视频播放3" */;
+			buildConfigurationList = 3F7F997C1DA91D0D0049DBF2 /* Build configuration list for PBXProject "视频播放3" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -186,60 +125,56 @@
 				en,
 				Base,
 			);
-			mainGroup = 3F7F991D1DA907A70049DBF2;
-			productRefGroup = 3F7F99271DA907A70049DBF2 /* Products */;
+			mainGroup = 3F7F99781DA91D0D0049DBF2;
+			productRefGroup = 3F7F99821DA91D0D0049DBF2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3F7F99251DA907A70049DBF2 /* 视频播放3 */,
+				3F7F99801DA91D0D0049DBF2 /* 视频播放3 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3F7F99241DA907A70049DBF2 /* Resources */ = {
+		3F7F997F1DA91D0D0049DBF2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F7F99411DA907BC0049DBF2 /* 150511_JiveBike.mov in Resources */,
-				3F7F99391DA907A70049DBF2 /* LaunchScreen.storyboard in Resources */,
-				3F7F99361DA907A70049DBF2 /* Assets.xcassets in Resources */,
-				3F7F99341DA907A70049DBF2 /* Main.storyboard in Resources */,
+				3F7F999C1DA91D780049DBF2 /* 150511_JiveBike.mov in Resources */,
+				3F7F99941DA91D0D0049DBF2 /* LaunchScreen.storyboard in Resources */,
+				3F7F99911DA91D0D0049DBF2 /* Assets.xcassets in Resources */,
+				3F7F998F1DA91D0D0049DBF2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3F7F99221DA907A70049DBF2 /* Sources */ = {
+		3F7F997D1DA91D0D0049DBF2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F7F99311DA907A70049DBF2 /* ViewController.m in Sources */,
-				3F7F994F1DA90EBF0049DBF2 /* MJVideoPlayerController.m in Sources */,
-				3F7F992E1DA907A70049DBF2 /* AppDelegate.m in Sources */,
-				3F7F99491DA90B7B0049DBF2 /* MJVideo.m in Sources */,
-				3F7F99521DA912A50049DBF2 /* MJVideoPlayerView.m in Sources */,
-				3F7F992B1DA907A70049DBF2 /* main.m in Sources */,
-				3F7F994C1DA90C090049DBF2 /* MJVideoPlayViewController.m in Sources */,
+				3F7F998C1DA91D0D0049DBF2 /* ViewController.m in Sources */,
+				3F7F99891DA91D0D0049DBF2 /* AppDelegate.m in Sources */,
+				3F7F99861DA91D0D0049DBF2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3F7F99321DA907A70049DBF2 /* Main.storyboard */ = {
+		3F7F998D1DA91D0D0049DBF2 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3F7F99331DA907A70049DBF2 /* Base */,
+				3F7F998E1DA91D0D0049DBF2 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		3F7F99371DA907A70049DBF2 /* LaunchScreen.storyboard */ = {
+		3F7F99921DA91D0D0049DBF2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3F7F99381DA907A70049DBF2 /* Base */,
+				3F7F99931DA91D0D0049DBF2 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -247,7 +182,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		3F7F993B1DA907A70049DBF2 /* Debug */ = {
+		3F7F99961DA91D0D0049DBF2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -294,7 +229,7 @@
 			};
 			name = Debug;
 		};
-		3F7F993C1DA907A70049DBF2 /* Release */ = {
+		3F7F99971DA91D0D0049DBF2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -335,24 +270,22 @@
 			};
 			name = Release;
 		};
-		3F7F993E1DA907A70049DBF2 /* Debug */ = {
+		3F7F99991DA91D0D0049DBF2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "视频播放3/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "cn.kimi.----3";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		3F7F993F1DA907A70049DBF2 /* Release */ = {
+		3F7F999A1DA91D0D0049DBF2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "视频播放3/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "cn.kimi.----3";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -362,24 +295,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3F7F99211DA907A70049DBF2 /* Build configuration list for PBXProject "视频播放3" */ = {
+		3F7F997C1DA91D0D0049DBF2 /* Build configuration list for PBXProject "视频播放3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3F7F993B1DA907A70049DBF2 /* Debug */,
-				3F7F993C1DA907A70049DBF2 /* Release */,
+				3F7F99961DA91D0D0049DBF2 /* Debug */,
+				3F7F99971DA91D0D0049DBF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3F7F993D1DA907A70049DBF2 /* Build configuration list for PBXNativeTarget "视频播放3" */ = {
+		3F7F99981DA91D0D0049DBF2 /* Build configuration list for PBXNativeTarget "视频播放3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3F7F993E1DA907A70049DBF2 /* Debug */,
-				3F7F993F1DA907A70049DBF2 /* Release */,
+				3F7F99991DA91D0D0049DBF2 /* Debug */,
+				3F7F999A1DA91D0D0049DBF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 3F7F991E1DA907A70049DBF2 /* Project object */;
+	rootObject = 3F7F99791DA91D0D0049DBF2 /* Project object */;
 }

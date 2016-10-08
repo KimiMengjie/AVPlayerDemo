@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="G2h-0U-HxR">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
@@ -18,50 +18,23 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FDu-z4-fom">
-                                <state key="normal" title="本地播放"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tZm-Pd-3hr">
+                                <frame key="frameInset" minX="138" minY="318" width="46" height="30"/>
+                                <state key="normal" title="开始播放"/>
                                 <connections>
-                                    <action selector="playLocalVideo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Cou-Fo-o9N"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P0R-0V-C5d">
-                                <state key="normal" title="远程播放"/>
-                                <connections>
-                                    <action selector="playRemotVideo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Fd6-eT-VG1"/>
+                                    <action selector="playClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="589-XX-Xcz"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="P0R-0V-C5d" firstAttribute="centerX" secondItem="FDu-z4-fom" secondAttribute="centerX" id="0I1-YU-xl9"/>
-                            <constraint firstItem="FDu-z4-fom" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="100" id="KVt-ph-Qjo"/>
-                            <constraint firstItem="FDu-z4-fom" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="e14-8n-3zI"/>
-                            <constraint firstItem="P0R-0V-C5d" firstAttribute="top" secondItem="FDu-z4-fom" secondAttribute="bottom" constant="100" id="mSH-Eu-rwk"/>
+                            <constraint firstItem="tZm-Pd-3hr" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="XuX-45-Ndo"/>
+                            <constraint firstItem="tZm-Pd-3hr" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ZtR-Ki-gNo"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="sS5-cN-udz"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="532" y="-565"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="FLc-1o-9mM">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="G2h-0U-HxR" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="QSd-SE-w8W">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="yVm-3M-Xd1"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="gb3-1q-cfW" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-247.19999999999999" y="-646.32683658170924"/>
         </scene>
     </scenes>
 </document>
